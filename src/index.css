@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Arapey:ital@1&display=swap');
+
+@import "tailwindcss";
+
+:root {
+  color-scheme: dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+
+  background: linear-gradient(
+    180deg,
+    #030712 0%,
+    #040b1a 40%,
+    #030712 100%
+  );
+
+  color: #f5f7fb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.arapey {
+  font-family: 'Arapey', serif;
+  font-style: italic;
+}
