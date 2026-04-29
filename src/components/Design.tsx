@@ -8,7 +8,7 @@ import Reveal from './Reveal'
 export default function Design() {
   return (
     <section id="design" className="px-6 py-24 text-white">
-      <div className="max-w-6xl">
+      <div className="mx-auto max-w-6xl">
 
         {/* HEADER */}
         <Reveal>
@@ -50,7 +50,7 @@ export default function Design() {
 
               <h3 className="mt-4 font-semibold">Bubble Tea Branding</h3>
               <p className="mt-1 text-sm text-white/60">
-                Logo, packaging and visual direction.
+                Logo design, packaging design, identity concept.
               </p>
             </a>
           </Reveal>
@@ -102,7 +102,7 @@ export default function Design() {
 
               <h3 className="mt-4 font-semibold">Full Brand Identity</h3>
               <p className="mt-1 text-sm text-white/60">
-                Brand system and packaging direction.
+                Brand identity, packaging design.
               </p>
             </a>
           </Reveal>
