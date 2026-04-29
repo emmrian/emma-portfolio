@@ -10,7 +10,6 @@ export default function Hero() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ delay: 0.6 }}
       >
-        {/* Wand stick */}
         <motion.div
           className="relative h-28 w-[2px] bg-white/40"
           animate={{ rotate: [0, -6, 4, 0] }}
@@ -20,7 +19,6 @@ export default function Hero() {
             ease: 'easeInOut',
           }}
         >
-          {/* Glowing tip */}
           <motion.div
             className="absolute -top-2 left-1/2 h-3 w-3 -translate-x-1/2 rounded-full bg-emerald-400 blur-[4px]"
             animate={{
@@ -34,7 +32,6 @@ export default function Hero() {
           />
         </motion.div>
 
-        {/* Sparkle particles */}
         <motion.div
           className="absolute -top-4 right-3 h-20 w-20"
           animate={{ rotate: 360 }}
@@ -52,21 +49,21 @@ export default function Hero() {
 
       <div className="relative mx-auto grid min-h-screen max-w-6xl items-center md:grid-cols-[1fr_0.35fr]">
         <motion.div
-          className="max-w-5xl py-20 md:py-0"
+          className="max-w-5xl py-16 md:py-0"
           initial={{ opacity: 0, y: 28 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.85, ease: [0.22, 1, 0.36, 1] }}
         >
-          <p className="mb-5 text-sm font-light uppercase tracking-[0.28em] text-white/35">
+          <p className="mb-5 text-xs font-light uppercase tracking-[0.24em] text-white/35 sm:text-sm md:tracking-[0.28em]">
             Frontend Developer
           </p>
 
-          <h1 className="max-w-5xl text-5xl font-semibold leading-[1.05] tracking-[-0.04em] md:text-6xl xl:text-[5.6rem]">
+          <h1 className="max-w-5xl text-4xl font-semibold leading-[1.08] tracking-[-0.04em] sm:text-5xl md:text-6xl md:leading-[1.05] xl:text-[5.6rem]">
             I translate brand{' '}
-            <span className="whitespace-nowrap">
+            <span className="md:whitespace-nowrap">
               vision into{' '}
               <span
-                className="arapey text-[4.5rem] font-normal leading-none text-emerald-400 md:text-[5.6rem] xl:text-[6.2rem]"
+                className="arapey text-[3.7rem] font-normal leading-none text-emerald-400 sm:text-[4.5rem] md:text-[5.6rem] xl:text-[6.2rem]"
                 style={{ textShadow: '0 0 26px rgba(16,185,129,0.32)' }}
               >
                 digital systems
@@ -74,9 +71,9 @@ export default function Hero() {
             </span>
           </h1>
 
-          <p className="mt-8 max-w-2xl text-base font-light leading-[1.65] text-white/60 md:text-lg">
+          <p className="mt-7 max-w-2xl text-base font-light leading-[1.65] text-white/60 md:mt-8 md:text-lg">
             Product-oriented frontend developer with a background in branding and digital systems.
-I design and build structured, scalable interfaces.
+            I design and build structured, scalable interfaces.
           </p>
 
           <div className="mt-9 flex items-center gap-4">
@@ -87,7 +84,6 @@ I design and build structured, scalable interfaces.
               Contact
               <span className="transition group-hover:translate-x-1">→</span>
             </a>
-
           </div>
         </motion.div>
 
